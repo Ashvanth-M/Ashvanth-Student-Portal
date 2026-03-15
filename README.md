@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+#Ashvanth Student Portal
+A modern student portal web application built by Ashvanth to manage students, courses, and academic information in a clean, responsive interface. The app focuses on a smooth UI, quick search and filtering, and a simple workflow for day‑to‑day student management.
 
-## Project info
+Live demo
+Deployed app: https://ashvanth-student-portal.lovable.app
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Features
+Student list with key details (name, ID, contact, etc.).
 
-## How can I edit this code?
+Add, edit, and remove students directly from the UI.
 
-There are several ways of editing your application.
+Search and filter functionality for quickly finding students.
 
-**Use Lovable**
+Clean, responsive design that works on desktop and mobile.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Local storage–based persistence for student data during development (no external DB setup needed yet).
 
-Changes made via Lovable will be committed automatically to this repo.
+Built with a modern React + TypeScript + Tailwind + shadcn‑ui stack for fast, scalable development.
+​
 
-**Use your preferred IDE**
+Tech stack
+Vite (frontend build tool)
+​
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+React with TypeScript
+​
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Tailwind CSS for styling
+​
 
-Follow these steps:
+shadcn‑ui for pre‑built, accessible UI components
+​
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Getting started
+Prerequisites
+Node.js and npm installed on your machine.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Git installed (optional but recommended).
 
-# Step 3: Install the necessary dependencies.
-npm i
+Setup
+Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+git clone https://github.com/Ashvanth-M/Ashvanth-Student-Portal.git
+cd Ashvanth-Student-Portal
+Install dependencies:
+
+bash
+npm install
+Start the development server:
+
+bash
 npm run dev
-```
+Open the local URL shown in your terminal (usually http://localhost:5173) in your browser.
 
-**Edit a file directly in GitHub**
+Project structure
+src/ – React components, pages, hooks, and core logic.
+​
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+public/ – Static assets.
+​
 
-**Use GitHub Codespaces**
+index.html – Root HTML entry point.
+​
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+tailwind.config.ts – Tailwind configuration.
+​
 
-## What technologies are used for this project?
+vite.config.ts – Vite configuration and dev server settings.
+​
 
-This project is built with:
+You can extend the project by adding:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Separate pages for dashboard, students, courses, and reports.
 
-## How can I deploy this project?
+Authentication and role‑based access (admin, faculty, student).
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+API integration with a real backend and database.
 
-## Can I connect a custom domain to my Lovable project?
+Development notes
+The app is designed to be easy to extend: you can plug in your own API or database layer later.
 
-Yes, you can!
+TypeScript types are used to keep the student data model consistent across the app.
+​
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+UI components are built with shadcn‑ui and Tailwind, so customizing the design is straightforward.
+​
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Roadmap / ideas
+Add authentication (JWT / OAuth) for secure access.
+
+Integrate real‑time updates for attendance or marks.
+
+Export data as CSV / PDF for admin use.
+
+Dark mode and theme customization.
+
+Ashvanth – design, development, and deployment of this student portal.
+
+GitHub: @Ashvanth-M
