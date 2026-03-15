@@ -1,4 +1,6 @@
 #Ashvanth Student Portal
+
+
 A modern student portal web application built by Ashvanth to manage students, courses, and academic information in a clean, responsive interface. The app focuses on a smooth UI, quick search and filtering, and a simple workflow for day‑to‑day student management.
 
 Live demo
